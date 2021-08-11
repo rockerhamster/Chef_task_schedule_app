@@ -1,0 +1,18 @@
+type order @model {
+  id: ID!
+  odrName: String!
+  Time: String
+  Date: String
+  Dish: [String!]!
+  Qty: [Int!]!
+  PrepTime: [Int!]!
+  Color: [String!]!
+  Done: [Boolean!]!
+  Note: [String!]!
+  Workerno: [Int!]!
+}
+
+type Subscription {
+    onChangeOrder: order
+        @aws_subscribe(mutations: ["createOrder","updateOrder","deleteOrder"])
+}
