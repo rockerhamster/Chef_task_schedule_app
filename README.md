@@ -5,6 +5,7 @@ Find /stripped release/stripped-release.apk for stripped down app without cloud 
 Lot of bugs without cloud api keys
 
 Description
+
 Scan an receipt order and using google's ML vision we can use image to text.
 The Text is then organised by comparing with a dish database and an order list is formed.
 The useState hook constantly refreshes as order list changes.
