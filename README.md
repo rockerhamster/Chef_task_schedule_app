@@ -6,6 +6,12 @@ Lot of bugs without cloud api keys
 
 Find /Previews for previews
 
+important code :- 
+App.js
+AppBars.js
+AppScan.js
+/components/*
+
 Description
 
 Scan an receipt order and using google's ML vision we can use image to text.
