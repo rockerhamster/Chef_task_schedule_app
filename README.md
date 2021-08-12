@@ -4,6 +4,8 @@ React native app that helps restaurant chefs to schedule and organize orders.
 Find /stripped release/stripped-release.apk for stripped down app without cloud api integration.
 Lot of bugs without cloud api keys
 
+Find /Previews for previews
+
 Description
 
 Scan an receipt order and using google's ML vision we can use image to text.
